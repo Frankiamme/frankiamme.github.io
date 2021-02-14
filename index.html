@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Minimalist Portfolio</title>
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<!-- locomotive-scroll -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
+	</head>
+	<body id="js-scroll">
+		<div class="wrapper">
+			<div class="container">
+				<!-- navbar -->
+				<div class="navbar">
+					<div class="navbar-container">
+						<div class="site-title">Portfolio</div>
+						<div class="site-type"></div>
+						<div class="site-year">@2021</div>
+					</div>
+				</div>
+
+				<!-- divider -->
+				<div class="divider"></div>
+
+				<!-- header -->
+				<div class="header">
+					<div class="header-container">
+						<h1>Frank Ojwang:<br /><br />Software<br />&nbsp;Developer</h1>
+						<h1><br />&nbsp;Graphic<br />&nbsp;Designer</h1>
+					</div>
+				</div>
+
+				<!-- hero-image -->
+				<div class="hero-image">
+					<div class="hero-image-container" data-scroll data-scroll-speed="2">
+						<img src="images/1234.jpg" alt="" />
+					</div>
+				</div>
+
+				<div class="whitespace"></div>
+
+				<!-- sections -->
+				<div class="section-header">
+					<div class="section-header-container">
+						<div class="section-title">about</div>
+						<div class="section-order">/000</div>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<!-- about -->
+				<section class="about">
+					<div class="about-container">
+						<p>							
+							Hello there stranger! my name's Frank and i'm both a Graphic Designer
+							and Developer. As you can see from the photo above, i like outdoor
+							activities...
+							But let it not fool you, i'm introverted. I like creating stuff and that's
+							why i'm into design and development. 
+						</p>
+						<p>
+							Some of the languages and tools i deal with in programming are: React, NodeJS, 
+							Redux, React Native, MS Server SQL, Oracle Server, and vanilla Javascript on
+							VS Code.
+							In design, there's Adobe Illustrator, Adobe XD, and Adobe Photoshop.				
+						</p>
+						<p>
+							Apart from me being tall, i can't list everything about me here.
+							If you want to get in touch and find out more, you can reach out 😃
+						</p>
+					</div>
+				</section>
+
+				<div class="whitespace"></div>
+
+				<!-- projects -->
+				<div class="section-header">
+					<div class="section-header-container">
+						<div class="section-title">sample projects</div>
+						<div class="section-order">/001</div>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<section class="project">
+					<div class="project-container">
+						<div>
+							<nav class="menu">
+								<div class="divider"></div>
+
+								<div class="menu__item">
+									<a class="menu__item-link">/ Prio Golf</a>
+									<img class="menu__item-img" src="images/Prio-Golf.jpg" />
+									<div class="marquee">
+										<div class="marquee__inner">
+											<span>Prio Golf</span>
+											<span>Prio Golf</span>
+											<span>Prio Golf</span>
+											<span>Prio Golf</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="divider"></div>
+
+								<div class="menu__item">
+									<a class="menu__item-link">/ Boxing Bros</a>
+									<img class="menu__item-img" src="images/boxingbros.jpg" />
+									<div class="marquee">
+										<div class="marquee__inner">
+											<span>Boxing Bros</span>
+											<span>Boxing Bros</span>
+											<span>Boxing Bros</span>
+											<span>Boxing Bros</span>
+										</div>
+									</div>
+								</div>
+								<!-- <div class="divider"></div> -->
+							</nav>
+						</div>
+					</div>
+				</section>
+
+				<div class="whitespace"></div>
+
+				<!-- clients -->
+				<!-- <div class="section-header">
+					<div class="section-header-container">
+						<div class="section-title">clients</div>
+						<div class="section-order">/002</div>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<section class="clients">
+					<div class="clients-container">
+						<p>
+							<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AL Servos, Boxing Bros
+							<br />
+						</p>
+					</div>
+				</section>
+
+				<div class="whitespace"></div> -->
+
+				<!-- social  -->
+				<div class="section-header">
+					<div class="section-header-container">
+						<div class="section-title">socials</div>
+						<div class="section-order">/004</div>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<section class="socials">
+					<div class="socials-container">
+						<div class="socials-id bh"><a href="https://www.behance.net/frankwillisOJ" target="_blank">behance</a></div>
+						<div class="socials-id ln"><a href="https://www.linkedin.com/in/frank-ojwang-571298122/" target="_blank">linkedin</a></div>
+						<div class="socials-id ig"><a href="https://github.com/Frankiamme" target="_blank">github</a></div>
+					</div>
+				</section>
+
+				<div class="divider"></div>
+
+				<!-- footer -->
+				
+				<br />
+			</div>
+		</div>
+
+		<script>
+			const scroll = new LocomotiveScroll({
+				el: document.querySelector("#js-scroll"),
+				smooth: true,
+				smoothMobile: true,
+				inertia: 0.75,
+			});
+		</script>
+	</body>
+</html>
